@@ -9,6 +9,7 @@ module.exports = {
       "www.snitch.co.in",
       "promos.makemytrip.com",
       "*",
+      "images.apollo247.in",
     ],
   },
 };
