@@ -10,6 +10,7 @@ module.exports = {
       "promos.makemytrip.com",
       "*",
       "images.apollo247.in",
+      "cdn-images.cure.fit"
     ],
   },
 };
