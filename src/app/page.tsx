@@ -59,19 +59,6 @@ export default function Home() {
     <section className="p-12">
       <h1 className="text-center font-semibold text-2xl">Service Offer</h1>
       <SearchBar onSearch={handleSearch} />
-      <select
-        id="location-filter"
-        name="location-filter"
-        multiple
-        className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
-        onChange={() => {}}
-      >
-        {Object.entries(LOCATIONS).map(([key, value]) => (
-          <option key={key} value={key}>
-            {value}
-          </option>
-        ))}
-      </select>
       <div className="flex space-x-2 mt-8">
         {Object.values(CATEGORY).map((category) => (
           <div
