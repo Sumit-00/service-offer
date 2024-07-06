@@ -8,6 +8,7 @@ module.exports = {
       "babyg.app",
       "www.snitch.co.in",
       "promos.makemytrip.com",
+      "*",
     ],
   },
 };
