@@ -7,6 +7,7 @@ module.exports = {
       "rp-media.faasos.io",
       "babyg.app",
       "www.snitch.co.in",
+      "promos.makemytrip.com",
     ],
   },
 };
