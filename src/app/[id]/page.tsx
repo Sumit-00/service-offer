@@ -16,6 +16,7 @@ import {
   query,
   where,
 } from "firebase/firestore";
+import { format } from "date-fns";
 
 function BrandDetailsPage() {
   const router = useRouter();
@@ -139,6 +140,16 @@ function BrandDetailsPage() {
                 times unlocked
               </p>
             </div>
+          </div>
+
+          <div className="flex items-center space-x-2">
+            <p>Expiry: </p>
+            <span className="text-gray-600">
+              {format(
+                (currData as BrandDataType).validity || new Date(),
+                "LLL dd, y"
+              )}
+            </span>
           </div>
 
           {/* Key points */}
